@@ -23,10 +23,12 @@ jobs:
       run: npm ci
     
     - name: Run linter
-      run: npm run lint || true  # Continue even if linting fails
+      run: npm run lint
     
     - name: Build project
       run: npm run build
+    
+    # Removed the test step since you don't have tests yet
 
   deploy:
     needs: test
