@@ -10,7 +10,7 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-8">
           <p className="text-lg text-slate-300">
-            I'm a Computer Science undergraduate at the University of Ruhuna,
+            I&apos;m a Computer Science undergraduate at the University of Ruhuna,
             passionate about full-stack development and IoT systems.
           </p>
 
@@ -25,7 +25,7 @@ export default function About() {
   );
 }
 
-function Card({ icon, title }: any) {
+function Card({ icon, title }: { icon: React.ReactNode; title: string }) {
   return (
     <div className="bg-slate-800 p-5 rounded border border-slate-700">
       <div className="flex items-center gap-3 text-cyan-400">

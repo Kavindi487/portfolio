@@ -9,7 +9,7 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-4">
-          Hi, I'm <span className="text-cyan-400">Kavindi Vidusari</span>
+          Hi, I&apos;m <span className="text-cyan-400">Kavindi Vidusari</span>
         </h1>
 
         <p className="text-xl text-slate-400 mb-6">
@@ -18,7 +18,7 @@ export default function Hero() {
 
         <div className="flex justify-center gap-4">
           <a href="https://github.com/Kavindi487"><Github /></a>
-          <a href="#"><Linkedin /></a>
+          <a href="https://www.linkedin.com/in/kavindi-vidusari-618a08259"><Linkedin /></a>
           <a href="mailto:kavindividusari@gmail.com"><Mail /></a>
         </div>
       </div>
